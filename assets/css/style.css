@@ -601,6 +601,7 @@ section {
 
 .services .title a {
   color: #111;
+  text-decoration: none;
 }
 
 .services .description {
@@ -735,8 +736,6 @@ section {
 }
 
 .portfolio .portfolio-item {
-  width: 356px;
-  height: 266px;
   margin-bottom: 30px;
   overflow: hidden;
 }
@@ -818,11 +817,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #124559;
+  border: 1px solid #e43c5c;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #124559;
+  background-color: #e43c5c;
 }
 
 .portfolio-details .portfolio-info {
