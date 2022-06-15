@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Robotics Website</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Robotics Website</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/center-image.png" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/center-image.png" rel="icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!--Chatbot-->
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "b55deaad-68e8-45c0-8fe8-236538bee764";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+  </head>
 
-   <!-- Main CSS File -->
-   <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="assets/img/center-image.png" alt="logo" />
+          </a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-
-  <!--Chatbot-->
-  <script type="text/javascript">
-    window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "b55deaad-68e8-45c0-8fe8-236538bee764";
-    (function () {
-      d = document;
-      s = d.createElement("script");
-      s.src = "https://client.crisp.chat/l.js";
-      s.async = 1;
-      d.getElementsByTagName("head")[0].appendChild(s);
-    })();
-  </script>
-
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">
-          <img src="assets/img/center-image.png" alt="logo">
-        </a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Benefits</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Projects</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="#" style="text-decoration:none;">Events</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Benefits</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Projects</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a href="#" style="text-decoration: none">Events</a></li>
+            <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -83,18 +88,18 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-    </div>
-  </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
 
-  <!-- ======= Hero Section ======= -->
-
-
-  <!-- <header>
+    <!-- <header>
     <div class="overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="assets/img/video.mp4" type="video/mp4">
@@ -110,362 +115,539 @@
   </header>
    -->
 
+    <section id="hero">
+      <div class="hero-container">
+        <video
+          width="1600"
+          height="1400"
+          autoplay
+          playsinline
+          muted
+          loop
+          id="myVideo"
+        >
+          <source src="assets/img/IMG_6921.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="hero-container" style="z-index: 10">
+        <h3>Welcome to <strong>Robotics Club</strong></h3>
+        <h1 class="mb-4">
+          Where creativity <br />
+          meets technology.
+        </h1>
+        <a href="#about" class="btn-get-started scrollto">Get to know us</a>
+        <!-- <h2>We are team of talented designers making websites with Bootstrap</h2> -->
+      </div>
+    </section>
+    <!-- End Hero -->
 
-
-  <section id="hero">
-    <div class="hero-container">
-      <video width="1600" height="1400" autoplay muted loop id="myVideo">
-        <source src="assets/img/video.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="hero-container" style="z-index:10;">
-      <h3>Welcome to <strong>Robotics Club</strong></h3>
-      <h1 class="mb-4">Where creativity <br> meets technology.</h1>
-      <a href="#about" class="btn-get-started scrollto">Get to know us</a>
-      <!-- <h2>We are team of talented designers making websites with Bootstrap</h2> -->
-    </div>
-  </section>
-  <!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <h3>Learn More <span>About Us</span></h3>
-          <p>Robotics is an interdisciplinary sector of science and engineering dedicated to the design, construction
-            and use of mechanical robots.</p>
-        </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <p style="margin: 15px 0 15px 0;
-            font-size: 15px;
-            font-weight: 700;
-            text-align: center;">
-              Vision
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i>To Impart knowledge on robotics & various other fields attached to
-                it.</li>
-              <li><i class="ri-check-double-line"></i>To participate and thrive in Robotics competitions.</li>
-              <li><i class="ri-check-double-line"></i>To evolve by learning new hardware and software technologies.</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p style="margin: 15px 0 15px 0;
-            font-size: 15px;
-            font-weight: 700;
-            text-align: center;">
-              Mission
-            </p>
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About</h2>
+            <h3>Learn More <span>About Us</span></h3>
             <p>
-              The mission we are on is to educate our young generation in the various technologies that are present for
-              building a Robot, which in turn makes them aware of the current trends in software and hardware
-              industries.
-              This is done by conducting workshops, webinars and competitions.
+              Robotics is an interdisciplinary sector of science and engineering
+              dedicated to the design, construction and use of mechanical
+              robots.
             </p>
-            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <p
+                style="
+                  margin: 15px 0 15px 0;
+                  font-size: 15px;
+                  font-weight: 700;
+                  text-align: center;
+                "
+              >
+                Vision
+              </p>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i>To Impart knowledge on
+                  robotics & various other fields attached to it.
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i>To participate and thrive
+                  in Robotics competitions.
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i>To evolve by learning new
+                  hardware and software technologies.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p
+                style="
+                  margin: 15px 0 15px 0;
+                  font-size: 15px;
+                  font-weight: 700;
+                  text-align: center;
+                "
+              >
+                Mission
+              </p>
+              <p>
+                The mission we are on is to educate our young generation in the
+                various technologies that are present for building a Robot,
+                which in turn makes them aware of the current trends in software
+                and hardware industries. This is done by conducting workshops,
+                webinars and competitions.
+              </p>
+              <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End About Section -->
 
-      </div>
-    </section><!-- End About Section -->
+      <!-- ======= Benefits Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Benefits</h2>
+            <h3>We provide awesome <span>Benefits</span></h3>
+            <p>
+              Robots convey a bigger number of points of interest than
+              impediments to the working environment.
+            </p>
+          </div>
 
-    <!-- ======= Benefits Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+              <div class="icon-box">
+                <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+                <img
+                  width="200"
+                  height="120"
+                  src="assets/img/benefits/workshops.jpg"
+                  alt="workshops"
+                />
+                <h4 class="title mt-3"><a href="">Workshops</a></h4>
+                <!-- <p class="description">Workshop requires participants to take a hands-on approach to immediately implement the skills they are learning.</p> -->
+                <p class="description">
+                  Learn along side skilled professionals and become one in the
+                  process.
+                </p>
+                <!-- <a class="ben-btn" href="#">Know More</a> -->
+              </div>
+            </div>
 
-        <div class="section-title">
-          <h2>Benefits</h2>
-          <h3>We provide awesome <span>Benefits</span></h3>
-          <p> Robots convey a bigger number of points of interest than impediments to the working environment.</p>
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+              <div class="icon-box">
+                <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+                <img
+                  width="200"
+                  height="120"
+                  src="assets/img/benefits/hardware.jpg"
+                  alt="hardware"
+                />
+                <h4 class="title mt-3"><a href="">Hardware Events</a></h4>
+                <p class="description">
+                  Get hands-on experience on building bots with your own
+                  visualisation.
+                </p>
+                <!-- <a class="cta-btn" href="#">Know More</a>    -->
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+              <div class="icon-box">
+                <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+                <img
+                  width="200"
+                  height="120"
+                  src="assets/img/benefits/competitions.jpg"
+                  alt="competitions"
+                />
+                <h4 class="title mt-3"><a href="">Competitions</a></h4>
+                <p class="description">
+                  Compete with various robotic masterminds and win exciting
+                  rewards.
+                </p>
+                <!-- <a class="cta-btn" href="#">Know More</a>              -->
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+              <div class="icon-box">
+                <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
+                <img
+                  width="200"
+                  height="120"
+                  src="assets/img/benefits/software.jpg"
+                  alt="software"
+                />
+                <h4 class="title mt-3"><a href="">Software Events</a></h4>
+                <p class="description">
+                  Instil knowledge of software technologies & become an optimal
+                  tech genius.
+                </p>
+                <!-- <a class="cta-btn" href="#">Know More</a> -->
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- End Services Section -->
 
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
-            <div class="icon-box">
-              <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
-              <img width="200" height="120" src="assets/img/benefits/workshops.jpg" alt="workshops">
-              <h4 class="title mt-3"><a href="">Workshops</a></h4>
-              <!-- <p class="description">Workshop requires participants to take a hands-on approach to immediately implement the skills they are learning.</p> -->
-              <p class="description">Learn along side skilled professionals and become one in the process.</p>
-              <!-- <a class="ben-btn" href="#">Know More</a> -->
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-6 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-store-line" style="color: #ffbb2c"></i>
+                <h3>Inventory Access</h3>
+              </div>
             </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
-            <div class="icon-box">
-              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-              <img width="200" height="120" src="assets/img/benefits/hardware.jpg" alt="hardware">
-              <h4 class="title mt-3"><a href="">Hardware Events</a></h4>
-              <p class="description">Get hands-on experience on building bots with your own visualisation.</p>
-              <!-- <a class="cta-btn" href="#">Know More</a>    -->
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-bar-chart-box-line" style="color: #5578ff"></i>
+                <h3>Customized Items</h3>
+              </div>
             </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
-            <div class="icon-box">
-              <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
-              <img width="200" height="120" src="assets/img/benefits/competitions.jpg" alt="competitions">
-              <h4 class="title mt-3"><a href="">Competitions</a></h4>
-              <p class="description">Compete with various robotic masterminds and win exciting rewards.</p>
-              <!-- <a class="cta-btn" href="#">Know More</a>              -->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
-            <div class="icon-box">
-              <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
-              <img width="200" height="120" src="assets/img/benefits/software.jpg" alt="software">
-              <h4 class="title mt-3"><a href="">Software Events</a></h4>
-              <p class="description">Instil knowledge of software technologies & become an optimal tech genius.</p>
-              <!-- <a class="cta-btn" href="#">Know More</a> -->
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-6 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3>Inventory Access</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3>Customized Items</h3>
-            </div>
-          </div>
-          <!-- <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
+            <!-- <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
               <h3><a href="">Sed perspiciatis</a></h3>
             </div>
           </div> -->
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3>Skill Development</h3>
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-database-2-line" style="color: #47aeff"></i>
+                <h3>Skill Development</h3>
+              </div>
             </div>
-          </div>
-          <!-- <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <!-- <div class="col-lg-3 col-md-4 col-6 mt-4">
             <div class="icon-box">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
               <h3><a href="">Eiusmod Tempor</a></h3>
             </div>
           </div> -->
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3>Letter Of Appreciation</h3>
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-file-list-3-line" style="color: #11dbcf"></i>
+                <h3>Letter Of Appreciation</h3>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3>Certifications</h3>
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-price-tag-2-line" style="color: #4233ff"></i>
+                <h3>Certifications</h3>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3>Hands-on Experience</h3>
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-anchor-line" style="color: #b2904f"></i>
+                <h3>Hands-on Experience</h3>
+              </div>
             </div>
-          </div>
-          <!-- <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <!-- <div class="col-lg-3 col-md-4 col-6 mt-4">
             <div class="icon-box">
               <i class="ri-disc-line" style="color: #b20969;"></i>
               <h3><a href="">Moton Ideal</a></h3>
             </div>
           </div> -->
-          <div class="col-lg-3 col-md-4 col-6 mt-4 ">
-            <div class="icon-box">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3>Hardware Practices</h3>
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-paint-brush-line" style="color: #e361ff"></i>
+                <h3>Hardware Practices</h3>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3>Software Practices</h3>
+            <div class="col-lg-3 col-md-4 col-6 mt-4">
+              <div class="icon-box">
+                <i class="ri-base-station-line" style="color: #ff5828"></i>
+                <h3>Software Practices</h3>
+              </div>
             </div>
-          </div>
-          <!-- <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <!-- <div class="col-lg-3 col-md-4 col-6 mt-4">
             <div class="icon-box">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
               <h3><a href="">G</a></h3>
             </div>
           </div> -->
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="text-center">
-          <h3>Registrations</h3>
-          <p>Robotics club provides an opportunity for students to supplement their education with hands-on experience
-            in integration engineering. From the past few years we engage our students with active participation in
-            various workshops, contests and tutorials to develop their interest in Robotics.</p>
-          <a class="cta-btn" href="#">Register Here</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <h3>Check our <span>Projects</span></h3>
-          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Arduino Bots</li>
-              <li data-filter=".filter-card">Raspberry Bots</li>
-              <li data-filter=".filter-web">Random</li>
-            </ul>
           </div>
         </div>
+      </section>
+      <!-- End Features Section -->
 
-        <div class="row portfolio-container justify-content-center">
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container">
+          <div class="text-center">
+            <h3>Registrations</h3>
+            <p>
+              Robotics club provides an opportunity for students to supplement
+              their education with hands-on experience in integration
+              engineering. From the past few years we engage our students with
+              active participation in various workshops, contests and tutorials
+              to develop their interest in Robotics.
+            </p>
+            <a class="cta-btn" href="#">Register Here</a>
+          </div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+            <h3>Check our <span>Projects</span></h3>
+            <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Arduino Bots</li>
+                <li data-filter=".filter-card">Raspberry Bots</li>
+                <li data-filter=".filter-web">Random</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container justify-content-center">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-1.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Line Follower Bot</h4>
                 <p>Arduino</p>
-                <a href="assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-1.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="App 1"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-2.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>RFID Based System</h4>
                 <p>Random</p>
-                <a href="assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-2.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Web 3"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-3.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Ultrasonic Sensor Bot</h4>
                 <p>Arduino</p>
-                <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-3.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="App 2"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-4.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Keyboard Control Bot</h4>
                 <p>Raspberry Pi</p>
-                <a href="assets/img/portfolio/portfolio-4.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-4.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Card 2"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-5.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Spider Bot</h4>
                 <p>Random</p>
-                <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-5.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Web 2"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-6.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Self Balancing Bot</h4>
                 <p>Random</p>
-                <a href="assets/img/portfolio/portfolio-6.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-6.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="App 3"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-7.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-7.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Self Navigating Bot</h4>
                 <p>Raspberry Pi</p>
-                <a href="assets/img/portfolio/portfolio-7.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-7.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Card 1"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-8.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-8.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Zumo Autonomous Bot</h4>
                 <p>Raspberry Pi</p>
-                <a href="assets/img/portfolio/portfolio-8.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-8.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Card 3"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-9.png" class="img-fluid" alt="">
+              <img
+                src="assets/img/portfolio/portfolio-9.png"
+                class="img-fluid"
+                alt=""
+              />
               <div class="portfolio-info">
                 <h4>Devastator Tank Bot</h4>
                 <p>Random</p>
-                <a href="assets/img/portfolio/portfolio-9.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                    class="bx bx-link"></i></a>
+                <a
+                  href="assets/img/portfolio/portfolio-9.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Web 3"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
               </div>
             </div>
-
           </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing">
+      <!-- ======= Pricing Section ======= -->
+      <!-- <section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
@@ -532,10 +714,10 @@
 
       </div>
     </section> -->
-    <!-- End Pricing Section -->
+      <!-- End Pricing Section -->
 
-    <!-- ======= F.A.Q Section ======= -->
-    <!-- <section id="faq" class="faq">
+      <!-- ======= F.A.Q Section ======= -->
+      <!-- <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title">
@@ -603,251 +785,308 @@
 
       </div>
     </section> -->
-    <!-- End F.A.Q Section -->
+      <!-- End F.A.Q Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container">
+          <!--Execom Members-->
+          <div class="section-title">
+            <h2>Team</h2>
+            <h3>Our Hardworking <span>Team</span></h3>
+            <p>Execom Members</p>
+          </div>
 
-        <!--Execom Members-->
-        <div class="section-title">
-          <h2>Team</h2>
-          <h3>Our Hardworking <span>Team</span></h3>
-          <p>Execom Members</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-1.jpg" class="img-fluid" alt="chair">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-1.jpg"
+                    class="img-fluid"
+                    alt="chair"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Muhammad Akbaruddin Anwar</h4>
+                  <span>Chairperson</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Muhammad Akbaruddin Anwar</h4>
-                <span>Chairperson</span>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-2.jpg"
+                    class="img-fluid"
+                    alt="vice-chair"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Hamza Shah Khan</h4>
+                  <span>Vice Chairperson</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-3.jpg"
+                    class="img-fluid"
+                    alt="secretary"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Firdous Fathima</h4>
+                  <span>Secretary</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-4.jpg"
+                    class="img-fluid"
+                    alt="project-head"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mohammed Zeeshan Sheikh</h4>
+                  <span>Project Head</span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-2.jpg" class="img-fluid" alt="vice-chair">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <!--Publicity Heads-->
+          <div class="section-title">
+            <p>Publicity Heads</p>
+          </div>
+          <div class="row align-content-center justify-content-center">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-5.jpg"
+                    class="img-fluid"
+                    alt="publicity-head1"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Iqra Amreen</h4>
+                  <span>Publicity Head</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Hamza Shah Khan</h4>
-                <span>Vice Chairperson</span>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-6.jpg"
+                    class="img-fluid"
+                    alt="publicity-head2"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Sohaib Jafri</h4>
+                  <span>Publicity Head</span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-3.jpg" class="img-fluid" alt="secretary">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <!--Technical Heads-->
+          <div class="section-title">
+            <p>Technical Heads</p>
+          </div>
+          <div class="row align-content-center justify-content-center">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-7.jpg"
+                    class="img-fluid"
+                    alt="technical-head1"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Bilal Adnan Farooqui</h4>
+                  <span>Technical Head</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Firdous Fathima</h4>
-                <span>Secretary</span>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-8.jpg"
+                    class="img-fluid"
+                    alt="technical-head2"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Syed Muneeb Ahmed</h4>
+                  <span>Technical Head</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-9.jpg"
+                    class="img-fluid"
+                    alt="technical-head3"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mohammed Mujtabauddin</h4>
+                  <span>Technical Head</span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-4.jpg" class="img-fluid" alt="project-head">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <!--External Academia-->
+          <div class="section-title">
+            <p>External Academia</p>
+          </div>
+          <div class="row align-content-center justify-content-center">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-10.jpg"
+                    class="img-fluid"
+                    alt="chair"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mohammed Tahami</h4>
+                  <span>Chairperson</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Mohammed Zeeshan Sheikh</h4>
-                <span>Project Head</span>
-              </div>
             </div>
-          </div>
 
-        </div>
-
-
-        <!--Publicity Heads-->
-        <div class="section-title">
-          <p>Publicity Heads</p>
-        </div>
-        <div class="row align-content-center justify-content-center">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-5.jpg" class="img-fluid" alt="publicity-head1">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="./assets/img/team/Team-11.jpg"
+                    class="img-fluid"
+                    alt="vice-chair"
+                  />
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mohammed Saeed Ali</h4>
+                  <span>Vice Chairperson</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Iqra Amreen</h4>
-                <span>Publicity Head</span>
-              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-6.jpg" class="img-fluid" alt="publicity-head2">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sohaib Jafri</h4>
-                <span>Publicity Head</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!--Technical Heads-->
-        <div class="section-title">
-          <p>Technical Heads</p>
-        </div>
-        <div class="row align-content-center justify-content-center">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-7.jpg" class="img-fluid" alt="technical-head1">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Bilal Adnan Farooqui</h4>
-                <span>Technical Head</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-8.jpg" class="img-fluid" alt="technical-head2">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Syed Muneeb Ahmed</h4>
-                <span>Technical Head</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-9.jpg" class="img-fluid" alt="technical-head3">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Mohammed Mujtabauddin</h4>
-                <span>Technical Head</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!--External Academia-->
-        <div class="section-title">
-          <p>External Academia</p>
-        </div>
-        <div class="row align-content-center justify-content-center">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-10.jpg" class="img-fluid" alt="chair">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Mohammed Tahami</h4>
-                <span>Chairperson</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/team/Team-11.jpg" class="img-fluid" alt="vice-chair">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Mohammed Saeed Ali</h4>
-                <span>Vice Chairperson</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-12.jpg" class="img-fluid" alt="secretary">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a> -->
-          <!-- <a href=""><i class="bi bi-facebook"></i></a>
+            <!-- <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -858,179 +1097,228 @@
               </div>
             </div>
           </div> -->
+          </div>
         </div>
+      </section>
+      <!-- End Team Section -->
 
-      </div>
-    </section><!-- End Team Section -->
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <h3>Get <span>In Touch</span></h3>
+            <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
+          </div>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <h3>Get <span>In Touch</span></h3>
-          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
-        </div>
-
-        <!-- <div>
+          <!-- <div>
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
         </div> -->
 
-        <div class="row mt-5">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>
+                    Block 5, Fifth Floor, Room no. 5401 & 5406, Muffakham Jah
+                    College of Engineering and Technology
+                  </p>
+                </div>
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Block 5, Fifth Floor, Room no. 5401 & 5406, Muffakham Jah College of Engineering and Technology</p>
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>roboticsmjcet@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+91 8374420515</p>
+                  <p>(Chairperson)</p>
+                </div>
               </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>roboticsmjcet@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 8374420515</p>
-                <p>(Chairperson)</p>
-              </div>
-
             </div>
 
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
                 </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
           </div>
-
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-      </div>
-    </section><!-- End Contact Section -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <!-- <h3>Tempo</h3> -->
+              <img class="w-75 pb-4" src="assets/img/logo.png" alt="logo" />
+              <img
+                src="
+            "
+                alt=""
+              />
+              <p>
+                Block 2, Third Floor<br />
+                Muffakham Jah College of Engineering and Technology<br />
+                <!-- United States <br><br> -->
+                <strong>Phone:</strong> 99657485821<br />
+                <strong>Email:</strong> robotics.mjcollege.ac.in<br />
+              </p>
+            </div>
 
-  </main><!-- End #main -->
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4 class="mt-3">Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Benefits</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Projects</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Team</a>
+                </li>
+              </ul>
+            </div>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <!-- <h3>Tempo</h3> -->
-            <img class="w-75 pb-4" src="assets/img/logo.png" alt="logo">
-            <img src="
-            " alt="">
-            <p>
-              Block 2, Third Floor<br>
-              Muffakham Jah College of Engineering and Technology<br>
-              <!-- United States <br><br> -->
-              <strong>Phone:</strong> 99657485821<br>
-              <strong>Email:</strong> robotics.mjcollege.ac.in<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4 class="mt-3">Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Benefits</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Projects</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4 class="mt-3">Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Events</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#"></a></li>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4 class="mt-3">Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Events</a>
+                </li>
+                <!-- <li><i class="bx bx-chevron-right"></i> <a href="#"></a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
-            </ul>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4 class="mt-3">For any queries</h4>
+              <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Send"
+                />
+              </form>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4 class="mt-3">For any queries</h4>
-            <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Send">
-            </form>
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Robotics</span></strong
+            >. All Rights Reserved
           </div>
-
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/ -->
+            Designed by
+            <a href="https://www.linkedin.com/in/syeda-hiba-siraj-810aa81a0/"
+              >Syeda Hiba Siraj</a
+            >
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
-    </div>
+    </footer>
+    <!-- End Footer -->
 
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Robotics</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://www.linkedin.com/in/syeda-hiba-siraj-810aa81a0/">Syeda Hiba Siraj</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-  
-  <!--To reach top-->
-  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    <!--To reach top-->
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a> -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
