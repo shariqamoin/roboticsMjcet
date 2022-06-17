@@ -20,6 +20,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
 
+.registration{
+  height: 70px;
+  width: 100%;
+  background-color: #e0f5b2;
+  text-align: center;
+  padding-top: 15px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
